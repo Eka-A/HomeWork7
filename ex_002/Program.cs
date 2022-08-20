@@ -2,7 +2,7 @@
 //и возвращает значение этого элемента или же указание, что такого элемента нет.
 
 Random random = new Random();
-int rows = random.Next(4,4);
+int rows = random.Next(3,4);
 int columns = random.Next(4,4);
 int[,] array = new int[rows,columns];
 FillArray(array,4,9);
